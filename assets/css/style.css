@@ -1,0 +1,138 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ *
+ * You can see the styles here:
+ * https://github.com/tailwindcss/tailwindcss/blob/master/css/preflight.css
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/preflight";
+ */
+@tailwind preflight;
+
+/**
+ * This injects any component classes registered by plugins.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/components";
+ */
+@tailwind components;
+
+/**
+ * Here you would add any of your custom component classes; stuff that you'd
+ * want loaded *before* the utilities so that the utilities could still
+ * override them.
+ *
+ * Example:
+ *
+ * .btn { ... }
+ * .form-input { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "components/buttons";
+ * @import "components/forms";
+ */
+
+ .btn {
+	@apply p-3 font-sans rounded no-underline uppercase;
+ }
+
+ .btn-primary {
+	@apply text-white bg-blue;
+ }
+
+ .btn-large {
+	@apply p-5;
+ }
+
+ .btn-primary:hover {
+	@apply bg-blue-dark;
+ }
+
+ .scroll-link svg {
+	transition: transform .3s;
+ }
+
+ .scroll-link-header:hover svg {
+	transform: rotate(30deg);
+ }
+
+ .scroll-link-footer:hover svg {
+ 	transform: rotate(-30deg);
+ }
+
+ .nav-item-active a {
+	@apply text-green-bright;
+ }
+
+ /**
+  * Walks
+  */
+
+  /* .walk-listing + .walk-listing {
+	@apply sm:mt-6 md:ml-6 md:mt-0;
+  } */
+
+  .walk:hover {
+	@apply shadow-md;
+  }
+
+ .walk-location {
+	@apply text-white rounded leading-loose text-sm font-sans;
+ }
+
+ .walk-location-tag {
+	@apply bg-orange-light absolute pin-t pin-l mt-6 ml-6 px-2 py-1 text-blue;
+ }
+
+ .walk-content > * + * {
+	@apply mt-6;
+ }
+
+ .walk-content a {
+	@apply text-blue no-underline;
+ }
+
+ .walk-content a:hover {
+	@apply underline;
+ }
+
+ .walk-content blockquote {
+	@apply my-6 bg-blue text-white p-6 font-sans rounded;
+ }
+
+ .walk-content blockquote p {
+	@apply text-3xl;
+ }
+
+ .walk-content blockquote cite {
+	@apply mt-4 inline-block;
+ }
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ *
+ * If using `postcss-import`, use this import instead:
+ *
+ * @import "tailwindcss/utilities";
+ */
+@tailwind utilities;
+
+/**
+ * Here you would add any custom utilities you need that don't come out of the
+ * box with Tailwind.
+ *
+ * Example :
+ *
+ * .bg-pattern-graph-paper { ... }
+ * .skew-45 { ... }
+ *
+ * Or if using a preprocessor or `postcss-import`:
+ *
+ * @import "utilities/background-patterns";
+ * @import "utilities/skew-transforms";
+ */

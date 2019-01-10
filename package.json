@@ -1,0 +1,33 @@
+{
+ "name": "jatalieheights",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "build:css": "postcss assets/css/style.css -o dist/style.css",
+  "build:eleventy": "npx eleventy",
+  "serve": "browser-sync start --server --startPath /static --files \"dist/*.css, dist/*.js, static/*.html, !node_modules/**/*.html\"",
+  "watch:tailwind": "onchange 'static/*.html' 'assets/css/style.css' 'tailwind.js' -- run-s build:css",
+  "watch:eleventy": "npx eleventy --serve",
+  "dev": "run-p serve watch:tailwind"
+ },
+ "author": "James Bateson",
+ "license": "ISC",
+ "devDependencies": {
+  "@11ty/eleventy": "^0.6.0",
+  "@11ty/eleventy-plugin-rss": "^1.0.5",
+  "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
+  "@fullhuman/postcss-purgecss": "^1.1.0",
+  "browser-sync": "^2.26.3",
+  "cssnano": "^4.1.8",
+  "npm-run-all": "^4.1.5",
+  "markdown-it-anchor": "^5.0.2",
+  "onchange": "^5.2.0",
+  "tailwindcss": "^0.7.3",
+  "watch": "^1.0.2"
+ },
+ "dependencies": {
+  "glhd-tailwindcss-transitions": "^0.3.0",
+  "postcss-cli": "^6.1.0"
+ }
+}
