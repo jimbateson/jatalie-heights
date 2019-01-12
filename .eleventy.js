@@ -1,5 +1,4 @@
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
-const rssPlugin = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
 	'use strict';
@@ -9,6 +8,8 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(syntaxHighlightPlugin, {
 		templateFormats: "md"
 	});
+
+	templateFormats: ["html", "md", "njk"];
 
 	eleventyConfig.addPassthroughCopy("dist");
 	eleventyConfig.addPassthroughCopy("assets/images");

@@ -1,8 +1,15 @@
 {
  "name": "jatalieheights",
- "version": "1.0.0",
- "description": "",
+ "version": "0.0.1",
+ "description": "A personal walking black",
  "main": "index.js",
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/jimbateson/jatalie-heights"
+ },
+ "bugs": {
+	"url": "https://github.com/jimbateson/jatalie-heights/issues"
+ },
  "scripts": {
   "build:css": "postcss assets/css/style.css -o dist/style.css",
   "build:eleventy": "npx eleventy",
