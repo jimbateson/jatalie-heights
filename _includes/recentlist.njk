@@ -1,25 +1,7 @@
-<div class="mt-6">
-	<div class="md:flex md:flex-wrap md:-mx-4">
-		{% for walk in collections.list.slice(0, 3) %}
-			{# <li{% if page.url == tip.url %} class="active"{% endif %}><a href="{{ tip.url }}"><code>#{{ tip.data.tipindex }}</code>—{{ tip.data.tiptitle }}</a></li> #}
-
-			<div class="md:px-4 mb-8 md:mb-0 md:w-1/3">
-				<div class="walk-listing">
-					<!-- Walk info -->
-					<div class="bg-white p-6 rounded-lg flex justify-between items-center">
-						<div>
-							<h3 class="uppercase text-2xl font-sans">{{walk.data.title}}</h3>
-							<p>{{walk.data.location}}</p>
-						</div>
-
-						<div>
-							<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls2 {fill:none;stroke:#15173f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.15px}</style></defs><path class="cls2" d="M40.52 28.4l-2.55 2.66-3.5-2.72-2.72 2.72-3.26-3.2M10.7 43.69l11.25-18.57 3.88 6.56"/><path class="cls2" d="M18.9 43.69l15.44-25.48 15.45 25.48M25.83 43.69H6.29M52.94 43.69H29.77"/></svg>
-						</div>
-					</div>
-				</div>
-			</div>
-		{%- endfor %}
-	</div>
+<div class="mt-4 walks-list">
+	{% for walk in collections.list.slice(0, 3) %}
+		{% include "list-single.njk" %}
+	{%- endfor %}
 </div>
 
 <div class="text-center">

@@ -1,0 +1,57 @@
+ /**
+  * Walks
+  */
+
+.walk:hover {
+	@apply shadow-md;
+}
+
+.walk-location {
+	@apply text-white rounded leading-loose text-sm font-sans;
+}
+
+.walk-location-tag {
+	@apply bg-orange-light absolute pin-t pin-l mt-6 ml-6 px-2 py-1 text-blue;
+}
+
+.walk-content>*+* {
+	@apply mt-6;
+}
+
+.walk-content a {
+	@apply text-blue no-underline;
+}
+
+.walk-content a:hover {
+	@apply underline;
+}
+
+.walk-content blockquote {
+	@apply my-6 bg-blue text-white p-6 font-sans rounded;
+}
+
+.walk-content blockquote p {
+	@apply text-3xl;
+}
+
+.walk-content blockquote cite {
+	@apply mt-4 inline-block;
+}
+
+@media screen and (max-width: 959px) {
+	.walks-list .walks-list-item+.walks-list-item {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.walks-list {
+		display: grid;
+		grid-gap: 30px;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.walks-list.walks-list-recent {
+		grid-row-gap: 0;
+	}
+}

@@ -1,0 +1,40 @@
+/**
+ * Sitewide elements
+ */
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+.btn {
+	@apply p-3 font-sans rounded no-underline uppercase;
+}
+
+.btn-primary {
+	@apply text-white bg-blue;
+}
+
+.btn-large {
+	@apply p-5;
+}
+
+.btn-primary:hover {
+	@apply bg-blue-dark;
+}
+
+.scroll-link svg {
+	transition: transform .3s;
+}
+
+.scroll-link-header:hover svg {
+	transform: rotate(30deg);
+}
+
+.scroll-link-footer:hover svg {
+	transform: rotate(-30deg);
+}
+
+.nav-item-active a {
+	@apply text-green-bright;
+}
