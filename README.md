@@ -11,6 +11,7 @@ This is the first time I have used SSG and there are plenty of things I am still
 if you notice any bugs, please open an issue and I will take a look.
 
 * Add responsive image solution (picture element)
+* Investigate image quality issues
 * Improve performance of site
 * Improve accessibility of site
 * Add some SEO to the site

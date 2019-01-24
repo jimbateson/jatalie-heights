@@ -15,6 +15,17 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("assets/images");
 	eleventyConfig.addPassthroughCopy("favicons");
 
+	/* Responsive image shortcode for large header images (homepage, walks, list, single walks) */
+	/* Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars) */
+	eleventyConfig.addShortcode("hero-image", function (mobileUrl, tabletUrl, desktopUrl, largeDesktopUrl, imageAlt) {
+		return `<picture>
+					<source srcset="${largeDesktopUrl}" media="(min-width: 1220px)">
+					<source srcset="${desktopUrl}" media="(min-width: 1024px)">
+					<source srcset="${tabletUrl}" media="(min-width: 768px)">
+					<img src="${mobileUrl}" alt="${imageAlt}">
+				</picture>`;
+	});
+
 	/* Markdown */
 	// let markdownIt = require("markdown-it");
 	// let markdownItAnchor = require("markdown-it-anchor");
