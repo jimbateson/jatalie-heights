@@ -2,7 +2,9 @@
 layout: _layouts/base.njk
 ---
 
-<section class="h-screen bg-top bg-cover flex flex-col items-center justify-center" style="background-image: url(../assets/images/backgrounds/homepage-intro.jpg)">
+<section class="h-screen bg-top relative overflow-hidden flex flex-col items-center justify-center">
+	{% heroImage "/assets/images/backgrounds/homepage-intro.jpg","/assets/images/backgrounds/homepage-intro.jpg", "/assets/images/backgrounds/homepage-intro.jpg","/assets/images/backgrounds/homepage-intro.jpg","An image of Scafell Pike" %}
+
 	<h1 class="font-sans text-white text-4xl md:text-5xl mt-6 md:mt-0 text-center uppercase">One Year, Two Walkers</h1>
 
 	<a href="#js-main-content" class="absolute no-underline pin-b mb-10 text-white hover:text-green-bright transition transition-property-color scroll-link scroll-link-header">

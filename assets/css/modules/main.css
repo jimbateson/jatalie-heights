@@ -38,3 +38,26 @@ html {
 .nav-item-active a {
 	@apply text-green-bright;
 }
+
+.banner-hero {
+	background-position: center top;
+	background-size: 100% auto;
+	height: 100%;
+	left: 0;
+	position: absolute !important;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.banner-hero > img {
+	height: auto;
+	left: 50%;
+	max-width: none;
+	min-height: 100%;
+	min-width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: auto;
+}

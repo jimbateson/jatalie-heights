@@ -17,8 +17,8 @@ module.exports = function(eleventyConfig) {
 
 	/* Responsive image shortcode for large header images (homepage, walks, list, single walks) */
 	/* Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars) */
-	eleventyConfig.addShortcode("hero-image", function (mobileUrl, tabletUrl, desktopUrl, largeDesktopUrl, imageAlt) {
-		return `<picture>
+	eleventyConfig.addShortcode("heroImage", function (mobileUrl, tabletUrl, desktopUrl, largeDesktopUrl, imageAlt) {
+		return `<picture class="banner-hero">
 					<source srcset="${largeDesktopUrl}" media="(min-width: 1220px)">
 					<source srcset="${desktopUrl}" media="(min-width: 1024px)">
 					<source srcset="${tabletUrl}" media="(min-width: 768px)">
