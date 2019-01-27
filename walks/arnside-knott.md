@@ -22,7 +22,7 @@ We did Arnside Knott a couple of times last year, on both occasions taking sligh
 The first part of the walk takes you across some pretty boggy fields, not helped by yesterdays heavy rain. I can see why we kind of got lost last time, there are signposts dotted around, however, the paths are not too well defined, after getting a little further than we got last time, I got slightly lost, luckily there was a kind dog walker passing who pointed me in the right direction!
 
 <div class="lg:flex">
-    <p class="lg:flex-1 lg:mr-6">The actual Fairy Steps walk was fairly easy going in the end. There was a sharp include through some woods, but before long I had found the famous steps. The first thing that struck was was that they were VERY narrow! And upon starting my ascent of them, it soon became clear that I would not get far up them with my large backpack on. So I had to hold this above my head and walk up! Must have looked a bit bizarre, luckily there was nobody around whilst I did it.</p>
+    <p class="lg:flex-1 lg:mr-6">The actual Fairy Steps walk was fairly easy going in the end. There was a sharp include through some woods, but before long I had found the famous steps. The first thing that struck me was that they were VERY narrow! And upon starting my ascent of them, it soon became clear that I would not get far up them with my large backpack on. So I had to hold this above my head and walk up! Must have looked a bit bizarre, luckily there was nobody around whilst I did it.</p>
     <figure class="lg:flex-1">
     <img src="/assets/images/walks/arnside-knott/arnside-knott-content-1.jpg" class="rounded mt-6 lg:mt-0" alt="Image of the Fairy Steps, showing how narrow they are!">
     <figcaption class="text-xs">The secret stairs</figcaption>
