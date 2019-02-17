@@ -18,9 +18,9 @@ layout: /_layouts/walk.njk
 
 The weather seems to be improving! This weekend has been much better than recent weeks, and a great excuse to get up to The Lakes, when Spring/Summer comes, I'm hoping it will become my second home and I'll be up most weekends. I've been having a tough time recently, with personal stuff and also work pressures, so I decided to force myself to get out for the day, hoping I could take my mind off things.
 
-With me now being limited to public transport, a mixture of buses and trains, it means I only have a select area I can choose walks from currently. I am thinking about getting a little runaround to be able to get further afield, but there are a few logistic hurdles I need to ump before that becomes a reality.
+With me now being limited to public transport, a mixture of buses and trains, it means I only have a select area I can choose walks from currently. I am thinking about getting a little runaround to be able to get further afield, but there are a few logistical hurdles I need to jump before that can become a reality.
 
-Anyhow, this week I decided to return to Rydal Water (nr Grasmere), as mentioned in the intro this is a walk with sentimental meaning to me, and it's also a great walk, that can be done in a couple of hours, meaning it works around the transport times.
+Anyhow, this week I decided to return to Rydal Water (nr Grasmere), as mentioned in the intro this is a walk with sentimental value to me, and it's also a great walk, that can be done in a couple of hours, meaning it works around the transport times.
 
 My walk started, as so many do, in Ambleside, you can start this walk from a couple of car parks closer to Rydal Water, however, there is a nice little path just off the road (A591) that will take you to the start of the walk, and it adds some bonus steps on!
 
