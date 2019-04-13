@@ -1,5 +1,5 @@
 <div class="mt-4 walks-list">
-	{% for walk in collections.list.slice(-3) %}
+	{% for walk in collections.list.slice(-3).reverse() %}
 		{% include "list-single.njk" %}
 	{%- endfor %}
 </div>

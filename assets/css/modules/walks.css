@@ -10,6 +10,10 @@
 	@apply text-white rounded leading-loose text-sm font-sans;
 }
 
+.walk-container {
+	background-image: url(/assets/images/backgrounds/walk-background.gif);
+}
+
 .walk-location-tag {
 	@apply bg-orange-light absolute pin-t pin-l mt-6 ml-6 px-2 py-1 text-blue;
 }

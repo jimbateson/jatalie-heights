@@ -1,14 +1,14 @@
-# Jatalie Heights
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4b68bf7f-70c8-4d4a-a3a3-40f7806e646a/deploy-status)](https://app.netlify.com/sites/jatalie-heights/deploys)
 
-A simple personal walking blog for two keen, weekly(ish) walkers.
+# Jatalie Heights
+
+A simple personal walking blog for a keen, weekly(ish) walker.
 
 ## Build
 
 Site is built using [11ty](https://www.11ty.io/) and deployed using [Netlify](https://www.netlify.com/), and is currently WIP.
 
-This is the first time I have used SSG and there are plenty of things I am still learning. The plan is for me to introduce new features, refactor code and generally improve the site as my knowledge increases. Here is a full list of the things I am aware of / features I would like to implement.
+This is the first time I have used a SSG and there are plenty of things I am still learning. The plan is for me to introduce new features, refactor code and generally improve the site as my knowledge increases. Here is a full list of the things I am aware of / features I would like to implement.
 
 if you notice any bugs, please open an issue and I will take a look.
 
