@@ -33,13 +33,13 @@ layout: _layouts/base.njk
 				<div class="md:flex md:flex-wrap md:-mx-4">
 					<div class="md:px-4 md:w-2/3">
 						<div class="flex items-center">
-							<div>
-								<img src="/assets/images/author-jim.jpg" class="rounded-full mr-4" alt="A post by {{walk.data.author}}">
+							<div class="mr-4">
+								<img src="/assets/images/author-jim.jpg" style="min-width: 90px;" class="rounded-full" alt="A post by {{walk.data.author}}">
 							</div>
 
 							<div>
 								<h2 class="text-4xl font-sans">{{title}}</h2>
-								<p class="font-sans mt-2 text-lg">{{date}}</p>
+								<p class="font-sans mt-2 text-lg">{{ page.date.toUTCString() }}</p>
 							</div>
 						</div>
 
