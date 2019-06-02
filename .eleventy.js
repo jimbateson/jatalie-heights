@@ -14,6 +14,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("dist");
 	eleventyConfig.addPassthroughCopy("assets/images");
 	eleventyConfig.addPassthroughCopy("favicons");
+	eleventyConfig.addPassthroughCopy("sw.js");
 
 	/* Responsive image shortcode for large header images (homepage, walks, list, single walks) */
 	/* Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars) */
