@@ -7,7 +7,7 @@ const cacheName = 'v1';
 
 // Assets to cache
 const assetsToCache = [
-	'./_site/dist/style.css',
+	'/_site/dist/style.css',
 	'/_site/index.html'
 ];
 
