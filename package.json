@@ -1,7 +1,7 @@
 {
 	"name": "jatalieheights",
 	"version": "0.0.1",
-	"description": "A personal walking blog",
+	"description": "The personal walking blog of James bateson",
 	"main": "index.js",
 	"repository": {
 		"type": "git",
@@ -12,6 +12,7 @@
 	},
 	"scripts": {
 		"build:css": "postcss assets/css/style.css -o dist/style.css",
+		"build:js": "uglifyjs assets/scripts/site.js -m -o dist/site.js",
 		"build:eleventy": "npx eleventy",
 		"build:images": "imageoptim assets/images",
 		"serve": "browser-sync start --server --startPath /static --files \"dist/*.css, dist/*.js, static/*.html, !node_modules/**/*.html\"",
@@ -20,7 +21,7 @@
 		"dev": "run-p serve watch:tailwind watch:eleventy"
 	},
 	"author": "James Bateson",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@11ty/eleventy": "^0.8.3",
 		"@11ty/eleventy-plugin-rss": "^1.0.5",
@@ -34,6 +35,7 @@
 		"onchange": "^5.2.0",
 		"postcss-import": "^12.0.1",
 		"tailwindcss": "^0.7.3",
+		"uglify-js": "^3.6.0",
 		"watch": "^1.0.2"
 	},
 	"dependencies": {

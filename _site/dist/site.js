@@ -1,0 +1,1 @@
+if("serviceWorker"in navigator){navigator.serviceWorker.register("/sw.js").then(function(){console.log("ServiceWorker succesfully registered")}).catch(function(e){console.log("ServiceWorker registration failed: ",e)})}
