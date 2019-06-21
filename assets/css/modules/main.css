@@ -24,7 +24,10 @@ html {
 }
 
 .scroll-link svg {
+	display: block;
+	height: 60px;
 	transition: transform .3s;
+	width: 60px;
 }
 
 .scroll-link-header:hover svg {
