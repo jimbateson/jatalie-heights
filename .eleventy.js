@@ -1,9 +1,18 @@
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 
+// Import filters
+const dateFilter = require('./src/filters/date-filter.js');
+const markdownFilter = require('./src/filters/markdown-filter.js');
+const w3DateFilter = require('./src/filters/w3-date-filter.js');
+
 module.exports = function(eleventyConfig) {
 	'use strict';
 
 	eleventyConfig.setDataDeepMerge(true);
+
+	eleventyConfig.addFilter('dateFilter', dateFilter);
+	eleventyConfig.addFilter('markdownFilter', markdownFilter);
+	eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
 
 	eleventyConfig.addPlugin(syntaxHighlightPlugin, {
 		templateFormats: "md"

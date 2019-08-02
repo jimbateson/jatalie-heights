@@ -27,5 +27,5 @@ if you notice any bugs, please open an issue and I will take a look.
 * Once all walk Todo items added, have a better way to sort them, and then possibly filter them by location etc
 * Get better at writing blog posts!
 * Add an equipment page (need to think of sufficient content)
-* Format walk dates correctly (30th December 2018 for example)
+* ~~Format walk dates correctly (30th December 2018 for example)~~
 * Add service worker

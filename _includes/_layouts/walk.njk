@@ -39,7 +39,7 @@ layout: _layouts/base.njk
 
 							<div>
 								<h2 class="text-4xl font-sans">{{title}}</h2>
-								<p class="font-sans mt-2 text-lg">{{ page.date.toUTCString() }}</p>
+								<p class="font-sans mt-2 text-lg"><time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time></p>
 							</div>
 						</div>
 

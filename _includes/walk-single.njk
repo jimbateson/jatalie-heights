@@ -8,7 +8,7 @@
 		<!-- Walk info -->
 		<div class="bg-grey-lighter p-6">
 			<h3 class="uppercase text-2xl font-sans">{{walk.data.title}}</h3>
-			<p>{{walk.data.date}}</p>
+			<p><time datetime="{{ walk.date | w3DateFilter }}">{{ walk.date | dateFilter }}</time></p>
 			<a href="{{walk.url}}" class="btn btn-primary inline-block mt-6 transition transition-property-bg">Retrace my steps</a>
 		</div>
 	</div>
