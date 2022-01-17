@@ -1,5 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4b68bf7f-70c8-4d4a-a3a3-40f7806e646a/deploy-status)](https://app.netlify.com/sites/jatalie-heights/deploys)
 
+⚠️ Repository archived ⚠️
+
+Will possibly be adding a walks subdomaiin to my main personal site.
+
 # Jatalie Heights
 
 A simple personal walking blog for a keen, weekly(ish) walker.
